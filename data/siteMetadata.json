@@ -1,0 +1,18 @@
+{
+  "title": "From Cooking to Coding",
+  "author": "Daniel Wisltrop",
+  "headerTitle": "From Cooking to Coding",
+  "description": "A blog created with Next.js and Tailwind.css",
+  "language": "en-us",
+  "siteUrl": "https://tailwind-nextjs-starter-blog.vercel.app",
+  "siteRepo": "https://github.com/timlrx/tailwind-nextjs-starter-blog",
+  "image": "/static/images/dan.jpeg",
+  "socialBanner": "/static/images/logo_small.png",
+  "email": "daniel.wilstrop@outlook.com",
+  "github": "https://github.com/danielwilstrop",
+  "twitter": "https://twitter.com/Twitter",
+  "facebook": "https://www.facebook.com/dan.wilstrop/",
+  "youtube": "https://youtube.com",
+  "linkedin": "https://www.linkedin.com",
+  "locale": "en-US"
+}
