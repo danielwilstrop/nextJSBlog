@@ -21,7 +21,7 @@ console.log(less5)
 
 # .map()
 
-The **map** method again provie a new array after performing the specified callback function on each item in the array.
+The **map** method again provides a new array after performing the specified callback function on each item in the array.
 
 ```js
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
@@ -64,7 +64,7 @@ console.log(allOverZero)
 
 # .includes()
 
-**Every** very simple method that returns either _true_ or _false_ if the array contians the value specified.
+Very simple method that returns either _true_ or _false_ if the array contians the value specified.
 
 ```js
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
@@ -90,7 +90,7 @@ console.log(descend)
 
 # .reduce()
 
-The most complex methoid, with many difering use cases dependign what is passed as the callback but in our example it applies a function against an accumulator to reduce the array to single value (the sum of the array).
+The most complex method, with many difering use cases dependign what is passed as the callback but in our example it applies a function against an accumulator to reduce the array to single value (the sum of the array).
 
 ```js
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
@@ -103,7 +103,7 @@ console.log(sum)
 
 # .slice()
 
-The **slice** method returns a new array with the values of the original array from the specified start and end indexes you provide. It inlcudes the indexes you have provided.
+The **slice** method returns a new array with the values of the original array from the specified start and end indexes you provide. It includes the indexes you have provided.
 
 ```js
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
@@ -112,4 +112,4 @@ console.log(sliced)
 // ['2', '3', '4', '5', '6']
 ```
 
-There are more methods too of course to be covered in a later article but these are the real 'bread and butter' of javascript arrya methods to make code cleaner, quicker to develop and more readable.
+There are more methods too of course to be covered in a later article but these are the real 'bread and butter' of javascript array methods to make code cleaner, quicker to develop and more readable.
