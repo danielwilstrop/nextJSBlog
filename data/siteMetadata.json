@@ -5,7 +5,7 @@
   "description": "A blog created with Next.js and Tailwind.css",
   "language": "en-us",
   "siteUrl": "https://tailwind-nextjs-starter-blog.vercel.app",
-  "siteRepo": "https://github.com/timlrx/tailwind-nextjs-starter-blog",
+  "siteRepo": "https://github.com/danielwilstrop/nextJSBlog",
   "image": "/static/images/dan.jpeg",
   "socialBanner": "/static/images/logo_small.png",
   "email": "daniel.wilstrop@outlook.com",
