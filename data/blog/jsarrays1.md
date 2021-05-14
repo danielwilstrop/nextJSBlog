@@ -6,7 +6,9 @@ draft: false
 summary: Simple built in array methods in javascript
 ---
 
-One of the first concepts I fully grasped on my coding journey with javascript was arrays and their ease of use, the posibilities with such a basic dataset are endless and I am going to go through a few of the most common built in methods to help speed up and simplify writing code. Its worth noting in the code that the parameter provided to each of these methods could eb any name of your choosing. I have used _num_ in the majority of these examples as I am working with numbers and it provided good readabiltiy to the code.
+One of the first concepts I fully grasped on my coding journey with javascript was arrays and their ease of use, the possibilities with such a basic dataset are endless and I am going to go through a few of the most common built-in methods to help speed up and simplify writing code. For those new to javascript or coding, an array is a list of data, it could be anything from numbers, true/false statements, words, sentences, quite literally anything, or a combination. they are a very efficient way of storing data within a program.
+
+It is worth noting in the code that the parameter provided to each of these methods could be any name of your choosing. I have used _num_ in the majority of these examples as I am working with numbers and it provided good readability to the code.
 
 # .filter()
 
