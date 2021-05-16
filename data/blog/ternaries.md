@@ -8,7 +8,7 @@ summary: Super simple and condensed method for true/false conditionals
 
 ## Ternary Operators
 
-Before this amazing bit of syntax was relases with ES6 checking a simple true or false value, and then acting upon it, may have looked a little soemthiung like this.
+Before this amazing bit of syntax was relases with ES6 checking a simple true or false value, and then acting upon it, may have looked a little somethiung like this.
 
 ```js
 if (some - condition) {
