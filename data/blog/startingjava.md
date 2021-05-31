@@ -1,6 +1,6 @@
 ---
 title: To Java or Not to Java
-date: '2021-05-16'
+date: '2021-05-25'
 tags: ['Java', 'coding', 'OU']
 draft: false
 summary: New tech time, much deliberation let me to Java
