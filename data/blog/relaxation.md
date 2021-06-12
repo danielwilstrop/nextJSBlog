@@ -1,6 +1,6 @@
 ---
 title: Relaxation?
-date: '2021-10-06'
+date: '2021-06-10'
 tags: ['cooking', 'coding', 'OU']
 draft: false
 summary: Coding is the new chilling?
