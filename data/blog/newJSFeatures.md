@@ -78,6 +78,7 @@ console.log(b)
 By using **.flat()** we can 'flatten' arrays to remove any nested arrays within then, which previously could only be done iwht third party libraries, .concat(), or custom functions involving loops.
 
 ```js
+const array = [1, 2, [3, 4, 5], 6, [7, 8], [9, 10]]
 const flattened = array.flat()
 
 console.log(flattened)
@@ -86,7 +87,7 @@ console.log(flattened)
 
 # The Finally Method
 
-The new **.finally()** method allows us to perform an action after an returning a promise regardelss of the outcome of the promise. In normal circumstances we would, for example, call a fetch request and process it if successful by chaining **.then()** statements. At the end of these blocks we would use a **catch()** to catch and process any errors should the proise be unresolved. Only one of these blocks would be called. With the new **.finally()** method we can chain this to the end of our async functions and the code will automaticlaly be run regardless of wether of not the promise resolves or rejects.
+The new **.finally()** method allows us to perform an action after an returning a promise regardless of the outcome of the promise. In normal circumstances we would, for example, call a fetch request and process it if successful by chaining **.then()** statements. At the end of these blocks we would use a **.catch()** to catch and process any errors should the promise be unresolved. Only one of these blocks would be called. With the new **.finally()** method we can chain this to the end of our async functions and the code will automaticlaly be run regardless of wether of not the promise resolves or rejects.
 
 ```js
 fetch('www.madeup.com')
@@ -99,7 +100,7 @@ fetch('www.madeup.com')
 
 # Optional Chaining
 
-Optional chaining quite simply, is remarkable. It was introduced in ES2019 and it allows you to check the properties of objects and data exist and if so you can use them, if not the code wont fail it will simply move on. These checks could be done previously with lists os && statements but the readability of optional chanining makes this much much simpler. When accessing data using the **dot operator .** we can add a **?** before the dot which will check first is the propery exists. The bwlow example shows the same process restructured using this handy new feature.
+Optional chaining quite simply, is remarkable. It was introduced in ES2019 and it allows you to check the properties of objects and data exist and if so you can use them, if not the code wont fail it will simply move on. These checks could be done previously with lists os && statements but the readability of optional chanining makes this much much simpler. When accessing data using the **dot operator .** we can add a **?** before the dot which will check first is the propery exists. The below example shows the same process restructured using this handy new feature.
 
 ```js
 // Old Method
@@ -114,7 +115,7 @@ const userInfo = user?.name?.access?.access[1]
 
 # Double Bangs !!
 
-The last method on the list isnt new but its a usefukl trick to know if you need to return a true boolean value. JS treats the following as falsy values...
+The last method on the list isnt new but its a usefull trick to know if you need to return a true boolean value. JS treats the following as falsy values...
 
 - 0 / -0
 - 0n
