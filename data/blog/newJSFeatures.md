@@ -115,7 +115,7 @@ const userInfo = user?.name?.access?.access[1]
 
 # Double Bangs !!
 
-The last method on the list isnt new but its a usefull trick to know if you need to return a true boolean value. JS treats the following as falsy values...
+The last method on the list isnt new but its a useful trick to know if you need to return a true boolean value. JS treats the following as falsy values...
 
 - 0 / -0
 - 0n
